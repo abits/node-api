@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --harmony server.js"
+    "start": "nodemon --harmony server.js"
   },
   "repository": {
     "type": "git",
@@ -14,6 +14,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.10.8"
+    "body-parser": "^1.10.2",
+    "bootstrap": "^3.3.1",
+    "express": "^4.10.8",
+    "express-handlebars": "^1.1.0",
+    "json": "^9.0.3"
   }
 }
