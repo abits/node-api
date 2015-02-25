@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "node api demo",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --harmony server.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://cmartel@bitbucket.org/cmartel/node-api.git"
@@ -21,6 +17,12 @@
     "express": "^4.10.8",
     "express-handlebars": "^1.1.0",
     "express-session": "^1.10.3",
-    "json": "^9.0.3"
+    "json": "^9.0.3",
+    "morgan": "^1.5.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-nodemon": "^1.0.5"
   }
 }
